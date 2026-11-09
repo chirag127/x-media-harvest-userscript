@@ -37,8 +37,22 @@ The script acts with your own signed-in session against your own account. It is 
 ## Documentation
 
 - [AGENTS.md](AGENTS.md) - implementation notes and test steps
-- [okf/](okf/index.md) - knowledge bundle for humans and agents
+- [okf/](../../../../../docs/okf/index.md) - knowledge bundle for humans and agents
 
 ## License
 
 [MIT](LICENSE) (c) 2026 chirag127
+
+<!-- docs-single-source -->
+## 📚 Documentation
+
+Documentation for this repository lives in the umbrella workspace, in exactly **one** place:
+
+| What | Where |
+|------|-------|
+| This script's note | [`docs/okf/scripts/x-media-harvest-userscript.md`](../../../../../docs/okf/scripts/x-media-harvest-userscript.md) |
+| All notes, catalogued | [`docs/okf/index.md`](../../../../../docs/okf/index.md) |
+| Shared knowledge | [`docs/okf/concepts/`](../../../../../docs/okf/concepts/) |
+
+It is **not** copied into this repository. Nothing in this workspace is duplicated: one
+document, one file. Verify with `node c:\ws\scripts\check-okf.mjs`.
