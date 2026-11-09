@@ -57,6 +57,7 @@ the concepts below.
 | `metered-paywall-reset-userscript` | scripts/metered-paywall-reset-userscript.md | JSON-LD `articleBody` / AMP / archive reader + meter reset, v1.0.0 |
 | `coupon-stack-userscript` | scripts/coupon-stack-userscript.md | Promo/coupon/referral autofill + capped sweep + pair stacking, gray new-customer codes, v1.0.0 |
 | `region-select-userscript` | scripts/region-select-userscript.md | Client-trust region cookie override + IP-lock "you need a proxy" notice, dry-run → apply → reset, v1.0.0 |
+| `udemy-complete-all-userscript` | scripts/udemy-complete-all-userscript.md | One-click course completion via the app's own completion API + DOM quiz fallback, v2.1.0 |
 
 ## Supporting repos
 
